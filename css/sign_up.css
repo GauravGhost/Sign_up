@@ -3,18 +3,33 @@ body{
     font-family: 'Ubuntu', sans-serif;
 }
 
+ /* Navigation */
+
+.nav_bar{
+    padding: 10px 0 10px 0;
+    border-bottom: solid;
+    border-bottom-color: blue;
+}
+
+ /* sign up container css */
+
 .sign-up_container{
     margin-top: 50px;
 }
 
-.card_body{
-    margin: 20px;
-}
+ /* Title css */
+
 .title-head{
     background-color: white;
     text-align: center;
     font-size: 40px;
 }
+
+.card_body{
+    margin: 20px;
+}
+
+/* Empty box warining css */
 
 .invalid-feedback{
     padding: 10px;
@@ -25,11 +40,14 @@ body{
     background-color: rgb(253, 216, 222);
 }
 
+
 .form-control::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.336);
   font-weight: 100;
 }
 
+ /* Input border color */
+ 
 input[type=text],textarea[type=text]{
     border-color:rgb(26, 25, 25);
 }
