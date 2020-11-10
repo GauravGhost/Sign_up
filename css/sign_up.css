@@ -47,7 +47,9 @@ body{
 }
 
  /* Input border color */
- 
-input[type=text],textarea[type=text]{
+
+input[type=text],input[type=email],textarea[type=text]{
     border-color:rgb(26, 25, 25);
 }
+
+
